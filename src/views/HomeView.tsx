@@ -19,7 +19,7 @@ const GreetingSection = () => {
     };
   }, [])
   return (
-    <div className=" min-h-[90vh]  flex justify-center items-center">
+    <div className=" min-h-[85vh]  flex justify-center items-center">
       <h1 className="text-4xl font-semibold" ref={greetings}></h1>
     </div>
   );
