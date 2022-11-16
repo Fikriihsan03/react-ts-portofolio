@@ -1,10 +1,11 @@
-import Navbar from "../Navbar";
+import Navbar from "./Navbar";
 import { ReactNode } from "react";
+import Footer from "./Footer";
 
 interface IProps{
     children? : ReactNode
 }
-const Layout = ({children,...props}:IProps) => {
+const Layout = ({children}:IProps) => {
     return ( 
     <div className="w-[90%] mx-auto">
         <nav>
@@ -13,6 +14,7 @@ const Layout = ({children,...props}:IProps) => {
         <section>
             {children}
         </section>
+        <Footer/>
     </div> 
     );
 }
