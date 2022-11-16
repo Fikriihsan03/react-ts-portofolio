@@ -6,7 +6,7 @@ interface IProps{
 }
 const Layout = ({children,...props}:IProps) => {
     return ( 
-    <div className="md:container md:mx-auto">
+    <div className="w-[90%] mx-auto">
         <nav>
             <Navbar/>
         </nav>

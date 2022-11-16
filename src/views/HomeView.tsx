@@ -1,7 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import Typed from "typed.js";
+import Title from "../components/Title/Title";
 
-const GreetingSection = () => {
+const HomeView = () => {
   const greetings = useRef(null!)
 
   useEffect(() => {
@@ -19,10 +20,11 @@ const GreetingSection = () => {
     };
   }, [])
   return (
-    <div className=" min-h-[85vh]  flex justify-center items-center">
-      <h1 className="text-4xl font-semibold" ref={greetings}></h1>
+    <div className=" min-h-[85vh]  flex flex-col justify-center items-center">
+      <Title text="Hello!"/>
+      <h1 className="poppins text-lg font-semibold h-[50px]" ref={greetings}></h1>
     </div>
   );
 };
 
-export default GreetingSection;
+export default HomeView;
