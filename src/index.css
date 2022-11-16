@@ -19,3 +19,6 @@ code {
 .poppins{
   font-family: 'Poppins', sans-serif;
 }
+.pink-shadow:hover{
+  box-shadow:0.5rem 0.5rem rgb(203, 59, 138);
+}
