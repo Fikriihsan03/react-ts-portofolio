@@ -20,7 +20,7 @@ const HomeView = () => {
     };
   }, [])
   return (
-    <div className=" min-h-[85vh]  flex flex-col justify-center items-center">
+    <div className=" min-h-[90vh]  flex flex-col justify-center items-center">
       <Title text="Hello!"/>
       <h1 className="poppins text-lg font-semibold h-[50px]" ref={greetings}></h1>
     </div>
