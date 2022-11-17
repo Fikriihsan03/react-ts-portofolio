@@ -39,7 +39,44 @@ code {
 .poppins{
   font-family: 'Poppins', sans-serif;
 }
+.pink-shadow{
+  box-shadow:0.2rem 0.2rem rgb(203, 59, 138);
+  transition-duration: .25s;
+}
 .pink-shadow:hover{
   box-shadow:0.5rem 0.5rem rgb(203, 59, 138);
   transition-duration: .25s;
+}
+.pink-button {
+  background-color: black;
+  border: 2px solid rgb(203, 59, 138);
+  border-radius: 30px;
+  box-shadow: rgb(203, 59, 138) 4px 4px 0 0;
+  color: rgb(203, 59, 138);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.pink-button:hover {
+  background-color: white;
+}
+
+.pink-button:active {
+  box-shadow: rgb(203, 59, 138) 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .pink-button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
 }
