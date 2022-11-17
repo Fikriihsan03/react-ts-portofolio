@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import {useEffect, useRef } from "react";
 import Typed from "typed.js";
 import Title from "../components/Title/Title";
 

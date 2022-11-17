@@ -8,8 +8,8 @@ const Footer = () => {
                     <p>Projects</p>
                 </div>
                 <div className="flex flex-col gap-4 basis-1/3">
-                    <p><a href="https://github.com/Fikriihsan03" target="_blank">Github</a></p>
-                    <p><a href="https://www.linkedin.com/in/fikri-ihsan-0776b91b9/" target="_blank" >LinkedIn</a></p>
+                    <p><a href="https://github.com/Fikriihsan03" target="_blank" rel="noreferrer">Github</a></p>
+                    <p><a href="https://www.linkedin.com/in/fikri-ihsan-0776b91b9/" target="_blank" rel="noreferrer">LinkedIn</a></p>
                 </div>
                 <div className="flex flex-col gap-4 basis-1/3">
                     <p>Home</p>
