@@ -7,7 +7,7 @@ const HomeView = () => {
 
   useEffect(() => {
     const typed = new Typed(greetings.current, {
-      strings: ['Welcome to my portofolio website ^2000', "My name is Muhammad Fikri Ihsan ^1500",],
+      strings: ['Welcome to my portofolio website ^2000', "Hope you hire me ^_^ ^1500",],
       startDelay: 300,
       typeSpeed: 50,
       backSpeed: 50,
