@@ -1,8 +1,19 @@
+import Title from "../components/Title/Title";
+import { projectsData } from "../assets/projectsData";
+import ProjectCard from "../components/ProjectCard";
+
+
 const ProjectsView = () => {
-    return ( 
-    <div className="min-h-[80vh] flex items-center justify-center">
-        <div className="w-[100px] h-[100px] bg-white border-[#cb3b8a] border-2 pink-shadow"></div>
-    </div> );
-}
- 
+  return (
+    <div className="min-h-[85vh]">
+      <Title text="Projects" />
+      <div className="grid grid-cols-3 gap-8 m-4 ">
+        {projectsData.map((value, i) => {
+          return <ProjectCard key={i} data={value} />;
+        })}
+      </div>
+    </div>
+  );
+};
+
 export default ProjectsView;
