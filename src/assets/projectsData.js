@@ -14,5 +14,30 @@ export const projectsData =[
         isOnline:true,
         webLink:"https://fikri-app1.herokuapp.com/",
         sourceLink:"https://github.com/Fikriihsan03/faceRecognitionApp"
-    }
+    },
+    {
+        title:"Coming Soon",
+        description:"",
+        techStack:["Reactjs","css"],
+        isOnline:false,
+        webLink:"",
+        sourceLink:""
+    },
+    {
+        title:"Coming Soon",
+        description:"",
+        techStack:["Reactjs","css"],
+        isOnline:false,
+        webLink:"",
+        sourceLink:""
+    },
+    {
+        title:"Coming Soon",
+        description:"",
+        techStack:["Reactjs","css"],
+        isOnline:false,
+        webLink:"",
+        sourceLink:""
+    },
+    
 ]
