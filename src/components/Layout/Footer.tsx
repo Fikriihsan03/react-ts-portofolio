@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <div className="h-[200px] border-[#cb3b8a] border-t-2">
             <div className="flex mt-12">
-                <div className="flex flex-col gap-4 basis-1/3">
+                <div className="flex flex-col gap-4 basis-1/3 [&>p]:cursor-pointer">
                     <p>Home</p>
                     <p>About</p>
                     <p>Projects</p>
