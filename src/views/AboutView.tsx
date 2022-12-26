@@ -23,7 +23,7 @@ const AboutView = () => {
             . And i love to learn something new
           </p>
           <a href={resume} download="fikri-ihsan-CV">
-            <button className="mt-[6rem] p-[10px]  flex justify-center items-center gap-4 text-xl pink-button">
+            <button className="my-[6rem] p-[10px]  flex justify-center items-center gap-4 text-xl pink-button">
               <img src={pdfLogo} width="40" height="10" alt="pdflogo" />
               Resume
             </button>

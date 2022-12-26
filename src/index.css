@@ -74,9 +74,10 @@ code {
   transform: translate(2px, 2px);
 }
 
-@media (min-width: 768px) {
+@media only screen and (max-width:740px) {
   .pink-button {
-    min-width: 120px;
-    padding: 0 25px;
+    /* min-width: 120px; */
+    /* padding: 0 25px; */
+    line-height: normal;
   }
 }

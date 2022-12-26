@@ -7,7 +7,7 @@ const ProjectsView = () => {
   return (
     <div className="min-h-[85vh]">
       <Title text="Projects" />
-      <div className="grid grid-cols-3 gap-8 m-4 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 m-8 ">
         {projectsData.map((value, i) => {
           return <ProjectCard key={i} data={value} />;
         })}
