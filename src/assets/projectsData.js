@@ -16,20 +16,20 @@ export const projectsData =[
         sourceLink:"https://github.com/Fikriihsan03/faceRecognitionApp"
     },
     {
-        title:"Coming Soon",
-        description:"",
-        techStack:["Reactjs","css"],
+        title:"Guess Number Game (bot guessing)",
+        description:"a game where bot guess the number we input",
+        techStack:["React native","expo"],
         isOnline:false,
         webLink:"",
-        sourceLink:""
+        sourceLink:"https://github.com/Fikriihsan03/rn-guess-number-game/tree/main"
     },
     {
-        title:"Coming Soon",
-        description:"",
-        techStack:["Reactjs","css"],
+        title:"Guess Number Game (user guessing)",
+        description:"a game where user guess the random number inputted by bot",
+        techStack:["React native","expo"],
         isOnline:false,
         webLink:"",
-        sourceLink:""
+        sourceLink:"https://github.com/Fikriihsan03/rn-guess-number-game/tree/user-guess_ver"
     },
     {
         title:"Coming Soon",
