@@ -6,7 +6,7 @@ interface IProps {
 
 const Title = ({ text }: IProps) => {
     return (
-        <h1 className={styles.textHeader} data-shadow={text}>{text}</h1>
+        <h1 className={styles.textHeader}>{text}</h1>
     );
 }
 
