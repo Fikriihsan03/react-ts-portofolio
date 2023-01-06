@@ -1,51 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+* {
+  user-select: none;
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+}
+
+::selection {
+  background: transparent;
+  color: inherit;
+}
+::-moz-selection {
+  background: transparent;
+  color: inherit;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 /* width */
 ::-webkit-scrollbar {
-  width:8px;
+  width: 8px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(203, 59, 138); 
+  background: rgb(203, 59, 138);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(203, 59, 138); 
+  background: rgb(203, 59, 138);
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.poppins{
-  font-family: 'Poppins', sans-serif;
+.poppins {
+  font-family: "Poppins", sans-serif;
 }
-.pink-shadow{
-  box-shadow:0.2rem 0.2rem rgb(203, 59, 138);
-  transition-duration: .25s;
+.pink-shadow {
+  box-shadow: 0.2rem 0.2rem rgb(203, 59, 138);
+  transition-duration: 0.25s;
 }
-.pink-shadow:hover{
-  box-shadow:0.5rem 0.5rem rgb(203, 59, 138);
-  transition-duration: .25s;
+.pink-shadow:hover {
+  box-shadow: 0.5rem 0.5rem rgb(203, 59, 138);
+  transition-duration: 0.25s;
 }
 .pink-button {
   background-color: black;
@@ -74,7 +90,7 @@ code {
   transform: translate(2px, 2px);
 }
 
-@media only screen and (max-width:740px) {
+@media only screen and (max-width: 740px) {
   .pink-button {
     /* min-width: 120px; */
     /* padding: 0 25px; */
