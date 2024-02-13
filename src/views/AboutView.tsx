@@ -1,7 +1,7 @@
 import Title from "../components/Title/Title";
 import pdfLogo from "../assets/pink-download.png";
 import pinkPanther from "../assets/pink-panther2.png";
-import resume from "../assets/muhammad_fikri_ihsan_CV.pdf";
+import resume from "../assets/muhammad_fikri_ihsan_cv-1.pdf";
 
 const AboutView = () => {
   return (
